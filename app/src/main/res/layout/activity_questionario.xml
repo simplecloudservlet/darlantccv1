@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ActivityQuestionario">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="500sp"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/layoutInicio"
+                android:layout_width="1200dp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/escolher_cadastro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="200dp"
+                    android:text="@string/questionario_escolher_pessoa"
+                    android:textSize="30dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Spinner
+                    android:id="@+id/escolher_spinner00"
+                    android:layout_width="500dp"
+                    android:layout_height="42dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:spinnerMode="dialog"
+                    app:layout_constraintStart_toEndOf="@+id/escolher_cadastro"
+                    app:layout_constraintTop_toTopOf="@+id/escolher_cadastro" />
+
+
+                <Button
+                    android:id="@+id/escolher_botao_iniciar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/questionario_iniciar"
+                    android:textColor="#FBFBFB"
+                    android:textSize="30dp"
+                    app:layout_constraintStart_toEndOf="@+id/escolher_spinner00"
+                    app:layout_constraintTop_toTopOf="@+id/escolher_spinner00" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+

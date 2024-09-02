@@ -1,0 +1,2 @@
+rootProject.name = "DarlanTCC_v1"
+include ':app'

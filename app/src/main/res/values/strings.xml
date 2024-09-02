@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Darlan TCC</string>
+    <string name="app_versao">Versão: 30-08-2024</string>
+    <string name="app_site">https://darlantcc.com.br</string>
+
+    <string name="inicio_questionario">Questionário</string>
+    <string name="inicio_cadastro">Cadastro</string>
+    <string name="inicio_salvos">Respostas Salvas</string>
+    <string name="inicio_sobre">Sobre</string>
+    <string name="inicio_sem_cadastro">Cadastro vazio. Cadastre uma pessoa para começar.</string>
+
+
+    <string name="fim_mensagem">Parece que você chegou ao fim.</string>
+    <string name="fim_botao">Clique para continuar...</string>
+
+
+
+    <string name="anterior">ANTERIOR</string>
+    <string name="proximo">PRÓXIMO</string>
+
+    <string name="questionario_titulo">Questionário</string>
+    <string name="questionario_nome">Nome:</string>
+    <string name="questionario_idade">Idade:</string>
+    <string name="questionario_escolher_pessoa">Escolher pessoa:</string>
+    <string name="questionario_iniciar">Iniciar Questionário</string>
+    <string name="questionario_id">Número:</string>
+    <string name="questionario_permissao_concedida">Permissão concedida</string>
+    <string name="questionario_pdfgerado">PDF gerado com sucesso.</string>
+    <string name="questionario_txtgerado">TXT gerado com sucesso.</string>
+
+    <string name="clicou_imagem1">CLICOU NA IMAGEM 1</string>
+    <string name="clicou_imagem2">CLICOU NA IMAGEM 2</string>
+
+    <string name="p1_pergunta">PERGUNTA: QUAL É O MAIOR?</string>
+    <string name="p1_numero">PERGUNTA: 1</string>
+
+    <string name="p2_pergunta">PERGUNTA: QUAL É O MAIOR?</string>
+    <string name="p2_numero">PERGUNTA: 2</string>
+
+    <string name="p3_pergunta">PERGUNTA: QUAL É O MAIOR?</string>
+    <string name="p3_numero">PERGUNTA: 3</string>
+
+    <string name="p4_pergunta">PERGUNTA: QUAL É O MAIOR?</string>
+    <string name="p5_pergunta">PERGUNTA: QUAL É O MAIOR?</string>
+
+    <string name="respostas_menuItemNovo">Novo</string>
+    <string name="respostas_menuItemRespostas">Respostas</string>
+    <string name="respostas_menuItemPDF">PDF</string>
+    <string name="respostas_menuItemTXT">TXT</string>
+
+    <string name="respostas_menuItemCancelar">Cancelar</string>
+
+
+    <string name="pessoa_ID">ID:</string>
+    <string name="pessoa_nome">Nome:</string>
+    <string name="pessoa_idade">Idade:</string>
+    <string name="pessoa_adicionar">Adicionar</string>
+    <string name="pessoa_excluir">Excluir</string>
+
+
+
+    <string name="cadastro_titulo">Cadastro de Pessoas</string>
+    <string name="cadastro_nome">Nome:</string>
+    <string name="cadastro_idade">Idade:</string>
+
+    <string name="cadastro_salvar">Salvar</string>
+    <string name="cadastro_excluir">Excluir</string>
+    <string name="cadastro_nomevazio">Campo nome não informado.</string>
+    <string name="cadastro_tvID">ID:</string>
+    <string name="cadastro_id_inicial">-1</string>
+    <string name="cadastro_cancelado">Cadastro Cancelado.</string>
+    <string name="cadastro_apagar">Deseja realmente apagar?</string>
+    <string name="cadastro_idade_naoSelecionada">Idade não selecionada</string>
+    <string name="cadastro_desejaexcluir">Deseja excluir o cadastro?</string>
+    <string name="cadastro_removido">Cadastro removido.</string>
+
+    <string name="confirmacao">Confirma Novo Questionário?</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="aviso">Aviso</string>
+    <string name="ok">OK</string>
+    <string name="presalvar">Para salvar será necessário encerrar a partida. Confirmar ?</string>
+    <string name="partida_salva">Partida salva com sucesso!</string>
+    <string name="partida_nao_salva">Salvar partida cancelado.</string>
+
+    <string name="sobre_patrocinadores">Patrocinadores:</string>
+    <string name="sobre_autores">Autores:</string>
+    <string name="sobre_autor1">Darlan Oliveira Santos</string>
+    <string name="sobre_contato">Contato: darlan.2019@alunos.utfpr.edu.br</string>
+    <string name="sobre_autorInst1"></string>
+    <string name="sobre_autor2"></string>
+    <string name="sobre_autorInst2"></string>
+    <string name="sobre_autor3">Lucio Agostinho Rocha</string>
+    <string name="sobre_autorInst3">UTFPR Campus Apucarana</string>
+    <string name="sobre_titulo">Sobre</string>
+
+    <string name="respostas_titulo">Respostas Salvas</string>
+    <string name="respostas_id">ID:</string>
+    <string name="respostas_idpessoa">ID Pessoa:</string>
+
+    <string name="reload">"O questionário será reaberto. Confirma? "</string>
+    <string name="reload_cancelado">Carregar o questionário foi cancelado.</string>
+    <string name="registro_desejaexcluir">Deseja excluir esta resposta do questionário?</string>
+    <string name="registro_excluir">Excluir resposta</string>
+    <string name="registro_removido">Resposta removida.</string>
+    <string name="registro_titulo_dica"> - Aperte e segure para excluir</string>
+    <string name="title_activity_questionario">ActivityQuestionario</string>
+
+</resources>

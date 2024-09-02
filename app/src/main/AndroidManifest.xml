@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.edu.utfpr.darlantcc_v1">
+
+    <application
+        android:name="androidx.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.darlantcc_v1">
+        <activity
+            android:name=".ActivityQuestionario"
+            android:exported="true"
+            android:parentActivityName=".ActivityInicio"> <!-- Define qual serah a activity anterior do botao up -->
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ActivityInicio" />
+        </activity>
+        <activity
+            android:name=".ActivityP1"
+            android:exported="true"
+            android:parentActivityName=".ActivityQuestionario"> <!-- Define qual serah a activity anterior do botao up -->
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ActivityQuestionario" />
+        </activity>
+        <activity
+            android:name=".ActivityP2"
+            android:exported="true"
+            android:parentActivityName=".ActivityP1"> <!-- Define qual serah a activity anterior do botao up -->
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ActivityP1" />
+        </activity>
+        <activity
+            android:name=".ActivityFim"
+            android:exported="true"
+            android:parentActivityName=".ActivityP3"> <!-- Define qual serah a activity anterior do botao up -->
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ActivityP3" />
+        </activity>
+        <activity
+            android:name=".ActivityP3"
+            android:exported="true"
+            android:parentActivityName=".ActivityFim"> <!-- Define qual serah a activity anterior do botao up -->
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ActivityFim" />
+        </activity>
+        <activity
+            android:name=".ActivityCapa"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivityVisualizarPessoas"
+            android:exported="true"
+            android:parentActivityName=".ActivityInicio"> <!-- Define qual serah a activity anterior do botao up -->
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ActivityInicio" />
+        </activity>
+        <activity
+            android:name=".ActivityInicio"
+            android:exported="true"
+            android:parentActivityName=".ActivityCapa">
+
+            <!-- Define qual serah a activity anterior do botao up -->
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ActivityCapa" />
+        </activity>
+        <activity
+            android:name=".ActivityCadastrarPessoa"
+            android:exported="true"
+            android:parentActivityName=".ActivityVisualizarPessoas"> <!-- Define qual serah a activity anterior do botao up -->
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ActivityVisualizarPessoas" />
+        </activity>
+        <activity
+            android:name=".ActivitySobre"
+            android:exported="true"
+            android:parentActivityName=".ActivityInicio"> <!-- Define qual serah a activity anterior do botao up -->
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ActivityInicio" />
+        </activity>
+
+        <!-- Retorna para o inicio para nao perder o ID do questionario-->
+        <activity
+            android:name=".ActivityRespostas"
+            android:exported="true"
+            android:parentActivityName=".ActivityQuestionario"> <!-- Define qual serah a activity anterior do botao up -->
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ActivityQuestionario" />
+        </activity>
+
+
+        <activity
+            android:name=".ActivityVisualizarRespostas"
+            android:exported="true"
+            android:parentActivityName=".ActivityVisualizarRespostas"> <!-- Define qual serah a activity anterior do botao up -->
+            <!-- Define qual serah a activity anterior do botao up -->
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ActivityInicio" />
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>
